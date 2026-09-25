@@ -3,207 +3,310 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Technology &amp; AI | Imran Ahmed — Full Stack Developer</title>
-  <meta name="description" content="Technology stack and AI services by Imran Ahmed: Laravel, Next.js, OpenAI, Gemini, Claude, RAG, chatbots, computer vision, and production AI integration." />
-  <meta name="keywords" content="AI Integration, OpenAI, Gemini API, Laravel, Next.js, RAG, Chatbot Development, Imran Ahmed Technology" />
-  <meta name="robots" content="index,follow" />
+  <title>Technical Arsenal &amp; Architecture Matrix | Imran Ahmed — Senior Laravel &amp; AI Architect</title>
+  <meta name="description" content="Technical stack and architectural specifications by Imran Ahmed: Laravel 11/12, Next.js 15, Multi-model LLM orchestration (OpenAI, Claude, Gemini), Redis Horizon, Docker, MySQL index tuning, and Cloudflare WAF." />
+  <meta name="keywords" content="Laravel 11, Next.js 15, Production AI, Redis Horizon, Cloudflare WAF, Docker, MySQL Index Tuning, Imran Ahmed Tech Stack" />
   <meta name="author" content="Imran Ahmed" />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://imrandev.bd/technology" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="margin:0;background:#040b14;color:#e5eefb;font-family:Georgia,'Times New Roman',serif;line-height:1.65;">
-  <div style="max-width:1200px;margin:0 auto;padding:0 28px;">
+<body>
 
-    <header style="position:sticky;top:0;z-index:10;background:rgba(4,11,20,0.96);border-bottom:1px solid #1e3a5f;padding:20px 0;">
-      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
-        <a href="index.html" style="text-decoration:none;">
-          <div style="font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#60a5fa;font-weight:700;">Imran Ahmed</div>
-          <div style="font-size:18px;font-weight:700;color:#ffffff;font-family:Arial,Helvetica,sans-serif;">Full Stack Developer</div>
-        </a>
-        <nav style="display:flex;flex-wrap:wrap;gap:18px;font-family:Arial,Helvetica,sans-serif;font-size:14px;">
-          <a href="index.html" style="color:#cbd5e1;text-decoration:none;">Home</a>
-          <a href="about.html" style="color:#cbd5e1;text-decoration:none;">About</a>
-          <a href="services.html" style="color:#cbd5e1;text-decoration:none;">Services</a>
-          <a href="portfolio.html" style="color:#cbd5e1;text-decoration:none;">Portfolio</a>
-          <a href="industry.html" style="color:#cbd5e1;text-decoration:none;">Industry</a>
-          <a href="technology.html" style="color:#cbd5e1;text-decoration:none;">Technology</a>
-          <a href="contact.html" style="color:#cbd5e1;text-decoration:none;">Contact</a>
-          <a href="https://imrandev.bd/" style="color:#60a5fa;text-decoration:none;" target="_blank" rel="noopener noreferrer">imrandev.bd</a>
-        </nav>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand">
+        <div class="brand-seal">iA</div>
+        <div class="brand-info">
+          <div class="brand-name">Imran Ahmed</div>
+          <div class="brand-role">Senior Laravel &amp; AI Architect</div>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="industry.html">Industries</a></li>
+        <li><a href="technology.html" class="active">Technology</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://imrandev.bd" target="_blank" rel="noreferrer" class="btn btn-sm btn-outline-teal">Live Portfolio ↗</a>
+        <a href="contact.html" class="btn btn-sm btn-primary">Hire Me</a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section style="padding:72px 0 48px 0;border-bottom:1px solid #1e3a5f;">
-      <div style="display:inline-block;padding:7px 16px;border:1px solid #1d4ed8;color:#93c5fd;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-family:Arial,Helvetica,sans-serif;margin-bottom:24px;">Technical Arsenal</div>
-      <h1 style="font-size:clamp(32px,5vw,56px);line-height:1.1;margin:0 0 20px 0;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-weight:800;max-width:800px;">The <span style="color:#60a5fa;">stack</span> behind production systems.</h1>
-      <p style="font-size:19px;max-width:720px;color:#94a3b8;margin:0;font-family:Arial,Helvetica,sans-serif;">From Laravel backends to Next.js frontends and production AI pipelines — every tool chosen for reliability, performance, and maintainability.</p>
+  <!-- Hero -->
+  <main>
+    <section class="section section-hero">
+      <div class="container">
+        <div class="badge-pill" style="margin-bottom: 24px;">
+          <span class="status-dot"></span>
+          <span>Architectural Matrix · Tested in Production</span>
+        </div>
+        <h1 class="section-title" style="max-width: 920px;">
+          The <span class="text-teal font-serif" style="font-style: italic;">battle-tested</span> arsenal powering 100k+ concurrent users.
+        </h1>
+        <p class="section-subtitle">
+          Every tool, framework, and infrastructure layer in my stack is selected for deterministic performance, high maintainability, fault-tolerant concurrency, and enterprise security.
+        </p>
+      </div>
     </section>
 
-    <section style="padding:72px 0;border-bottom:1px solid #1e3a5f;">
-      <h2 style="font-size:clamp(26px,3vw,36px);color:#fff;margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-weight:700;">Core Technology Stack</h2>
-      <p style="color:#64748b;margin:0 0 36px 0;font-family:Arial,Helvetica,sans-serif;">The foundation of every project I deliver.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Backend</div>
-          <h3 style="color:#fff;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">Laravel &amp; PHP Ecosystem</h3>
-          <div style="display:flex;flex-wrap:wrap;gap:6px;font-family:Arial,Helvetica,sans-serif;">
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Laravel 11+</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">PHP 8.3</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">MySQL</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Redis</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Queue Workers</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">PHPUnit</span>
+    <!-- Tech Stack Matrix -->
+    <section class="section">
+      <div class="container">
+        <div class="section-label">
+          <span class="num">01 //</span>
+          <span class="text">Layered Stack Breakdown</span>
+        </div>
+        <h2 style="font-size: clamp(28px, 3.5vw, 42px); margin-bottom: 36px;">Core Architectural Matrix</h2>
+
+        <div class="grid-3">
+          <!-- Backend Core -->
+          <div class="card card-top-teal">
+            <h3 style="font-size: 19px; color: var(--teal-glow); margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">
+              Backend &amp; Microservices
+            </h3>
+            <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
+              High-throughput application logic, modular domain-driven architectures, and versioned RESTful APIs.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+              <span class="chip">Laravel 11/12</span>
+              <span class="chip">PHP 8.3+</span>
+              <span class="chip">Go (Golang)</span>
+              <span class="chip">Python</span>
+              <span class="chip">PHPUnit &amp; Pest</span>
+              <span class="chip">REST &amp; Webhooks</span>
+            </div>
+            <ul style="list-style: none; font-size: 12.5px; color: var(--text-dim); display: grid; gap: 4px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <li>• Multi-tenant tenant-isolation patterns</li>
+              <li>• Asynchronous queue job dispatch</li>
+              <li>• Strict PSR-12 &amp; clean architecture</li>
+            </ul>
+          </div>
+
+          <!-- Production AI -->
+          <div class="card card-top-copper">
+            <h3 style="font-size: 19px; color: var(--copper-glow); margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">
+              Production AI Engineering
+            </h3>
+            <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
+              Multi-model LLM pipelines integrating OpenAI, Claude, and Gemini with automated fallback and cost telemetry.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+              <span class="chip">OpenAI GPT-4o</span>
+              <span class="chip">Claude 3.5</span>
+              <span class="chip">Gemini 1.5 Flash</span>
+              <span class="chip">Fallback Routing</span>
+              <span class="chip">Token Spend Caps</span>
+              <span class="chip">RAG Pipelines</span>
+            </div>
+            <ul style="list-style: none; font-size: 12.5px; color: var(--text-dim); display: grid; gap: 4px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <li>• 5,000+ daily autonomous cycles</li>
+              <li>• Real-time token consumption meters</li>
+              <li>• Social webhooks (Meta CAPI, X API v2)</li>
+            </ul>
+          </div>
+
+          <!-- Frontend & UI -->
+          <div class="card card-top-indigo">
+            <h3 style="font-size: 19px; color: #a5b4fc; margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">
+              Modern Frontend &amp; UI
+            </h3>
+            <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
+              High-performance, accessible, and reactive interfaces optimized for Core Web Vitals and seamless API hydration.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+              <span class="chip">Next.js 15</span>
+              <span class="chip">React 19</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">Vue.js 3</span>
+              <span class="chip">App Router</span>
+            </div>
+            <ul style="list-style: none; font-size: 12.5px; color: var(--text-dim); display: grid; gap: 4px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <li>• 90+ Core Web Vitals on checkout flows</li>
+              <li>• Sub-2s initial load benchmarks</li>
+              <li>• Strict TypeScript type safety</li>
+            </ul>
+          </div>
+
+          <!-- Data & Index Tuning -->
+          <div class="card card-top-teal">
+            <h3 style="font-size: 19px; color: var(--teal-glow); margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">
+              Databases &amp; Caching
+            </h3>
+            <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
+              Relational schema scaling, query optimization, and memory cache clustering managing millions of records.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+              <span class="chip">MySQL 8.0+</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Redis</span>
+              <span class="chip">Laravel Horizon</span>
+              <span class="chip">Composite B-Tree</span>
+              <span class="chip">EXPLAIN Profiling</span>
+            </div>
+            <ul style="list-style: none; font-size: 12.5px; color: var(--text-dim); display: grid; gap: 4px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <li>• ~40% query load reductions</li>
+              <li>• 1M+ operational records handled</li>
+              <li>• ~35% p95 latency improvements</li>
+            </ul>
+          </div>
+
+          <!-- Infrastructure & Security -->
+          <div class="card card-top-copper">
+            <h3 style="font-size: 19px; color: var(--copper-glow); margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">
+              DevOps, Cloud &amp; Security
+            </h3>
+            <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
+              Containerized environments, automated deployment pipelines, and hardened edge perimeter defense.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+              <span class="chip">Docker &amp; Compose</span>
+              <span class="chip">Linux VPS Admin</span>
+              <span class="chip">Nginx Reverse Proxy</span>
+              <span class="chip">Cloudflare WAF</span>
+              <span class="chip">GitHub Actions</span>
+              <span class="chip">AWS (EC2, S3)</span>
+            </div>
+            <ul style="list-style: none; font-size: 12.5px; color: var(--text-dim); display: grid; gap: 4px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <li>• ~95% automated malicious traffic blocked</li>
+              <li>• Blue/green zero-downtime deployments</li>
+              <li>• OWASP Top 10 mitigation</li>
+            </ul>
+          </div>
+
+          <!-- Packagist & Publishing -->
+          <div class="card card-top-indigo">
+            <h3 style="font-size: 19px; color: #a5b4fc; margin-bottom: 12px; font-family: var(--font-mono); text-transform: uppercase;">
+              Open Source &amp; Tooling
+            </h3>
+            <p style="color: var(--text-muted); font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
+              Author of public packages on Packagist and internal SDKs designed for high-throughput enterprise reuse.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px;">
+              <span class="chip">laravel-ai-hub</span>
+              <span class="chip">laravel-unicode-pdf</span>
+              <span class="chip">Packagist</span>
+              <span class="chip">Composer</span>
+              <span class="chip">UTF-8 Bengali</span>
+              <span class="chip">Arabic RTL</span>
+            </div>
+            <ul style="list-style: none; font-size: 12.5px; color: var(--text-dim); display: grid; gap: 4px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <li>• Multi-provider model failover library</li>
+              <li>• High-performance Bengali/Arabic PDF engine</li>
+              <li>• Clean developer experience &amp; docs</li>
+            </ul>
           </div>
         </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Frontend</div>
-          <h3 style="color:#fff;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">Next.js &amp; React</h3>
-          <div style="display:flex;flex-wrap:wrap;gap:6px;font-family:Arial,Helvetica,sans-serif;">
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Next.js 15</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">React 19</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">TypeScript</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Tailwind CSS</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">SSR / SSG</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Server Components</span>
+      </div>
+    </section>
+
+    <!-- Architecture Snippet Demonstration -->
+    <section class="section">
+      <div class="container">
+        <div class="section-label">
+          <span class="num">02 //</span>
+          <span class="text">Production Pattern</span>
+        </div>
+        <h2 style="font-size: clamp(28px, 3.5vw, 42px); margin-bottom: 24px;">Resilient Multi-LLM Fallback Architecture</h2>
+        <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 24px; max-width: 760px;">
+          Here is a conceptual representation of how <code>imrandevbd/laravel-ai-hub</code> orchestrates multi-provider fallbacks with token budget guards in production:
+        </p>
+
+        <div style="background: #04080e; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 24px; overflow-x: auto; font-family: var(--font-mono); font-size: 13px; line-height: 1.6; color: #cbd5e1;">
+<pre style="margin: 0;"><span style="color: #64748b;">// High-availability AI generation with automated model fallback and cost telemetry</span>
+<span style="color: #f43f5e;">use</span> <span style="color: #5eead4;">ImranDevBd\LaravelAiHub\Facades\AiHub</span>;
+<span style="color: #f43f5e;">use</span> <span style="color: #5eead4;">ImranDevBd\LaravelAiHub\DTO\PromptPayload</span>;
+
+<span style="color: #38bdf8;">$response</span> = <span style="color: #5eead4;">AiHub</span>::<span style="color: #fbbf24;">orchestrator</span>()
+    -&gt;<span style="color: #fbbf24;">withPrimaryModel</span>(<span style="color: #a5b4fc;">'openai/gpt-4o'</span>)
+    -&gt;<span style="color: #fbbf24;">withFallbackChain</span>([<span style="color: #a5b4fc;">'anthropic/claude-3-5-sonnet'</span>, <span style="color: #a5b4fc;">'google/gemini-1-5-pro'</span>])
+    -&gt;<span style="color: #fbbf24;">withTokenSpendLimit</span>(maxDailyCents: <span style="color: #f59e0b;">5000</span>) <span style="color: #64748b;">// Automated spend cap</span>
+    -&gt;<span style="color: #fbbf24;">withExponentialBackoff</span>(maxRetries: <span style="color: #f59e0b;">3</span>)
+    -&gt;<span style="color: #fbbf24;">execute</span>(<span style="color: #f43f5e;">new</span> <span style="color: #5eead4;">PromptPayload</span>(
+        prompt: <span style="color: #38bdf8;">$taskPrompt</span>,
+        systemContext: <span style="color: #38bdf8;">$complianceRules</span>
+    ));
+
+<span style="color: #64748b;">// Records telemetry, tokens used, latency, and active provider to Redis</span>
+<span style="color: #5eead4;">TelemetryTracker</span>::<span style="color: #fbbf24;">record</span>(<span style="color: #38bdf8;">$response</span>-&gt;<span style="color: #fbbf24;">getExecutionMetrics</span>());</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="border-bottom: none;">
+      <div class="container" style="text-align: center;">
+        <h2 style="font-size: clamp(28px, 3.5vw, 42px); margin-bottom: 16px;">Need technical leadership on your next build?</h2>
+        <p style="color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto 32px auto;">
+          From high-concurrency Laravel APIs to multi-model AI infrastructure, I ensure your stack is built to scale smoothly.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary">Start a Technical Discussion</a>
+          <a href="portfolio.html" class="btn btn-secondary">Explore Systems</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+            <div class="brand-seal" style="width: 32px; height: 32px; font-size: 16px;">iA</div>
+            <strong style="color: #fff; font-size: 16px;">Imran Ahmed</strong>
           </div>
+          <p style="color: var(--text-dim); font-size: 13.5px; max-width: 320px; line-height: 1.6; margin-bottom: 16px;">
+            Senior Laravel &amp; Full-Stack Engineer. Production AI Architect with 9+ years shipping battle-hardened web platforms.
+          </p>
+          <div style="color: var(--teal-glow); font-family: var(--font-mono); font-size: 12px;">Dhaka / Rangpur, Bangladesh (UTC+6)</div>
         </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Infrastructure</div>
-          <h3 style="color:#fff;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">DevOps &amp; Cloud</h3>
-          <div style="display:flex;flex-wrap:wrap;gap:6px;font-family:Arial,Helvetica,sans-serif;">
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Docker</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">GitHub Actions</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Nginx</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Cloudflare WAF</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Linux VPS</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">SSL / HTTPS</span>
-          </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About &amp; Experience</a></li>
+            <li><a href="services.html">Services &amp; Architecture</a></li>
+            <li><a href="portfolio.html">Portfolio &amp; Projects</a></li>
+          </ul>
         </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">CMS &amp; Commerce</div>
-          <h3 style="color:#fff;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">WordPress &amp; E-commerce</h3>
-          <div style="display:flex;flex-wrap:wrap;gap:6px;font-family:Arial,Helvetica,sans-serif;">
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">WordPress</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">WooCommerce</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Shopify API</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Stripe</span>
-            <span style="padding:5px 12px;background:#0f172a;border:1px solid #1e293b;color:#cbd5e1;font-size:12px;">Custom Plugins</span>
-          </div>
+        <div class="footer-col">
+          <h4>Deep Dives</h4>
+          <ul>
+            <li><a href="industry.html">Industry Verticals</a></li>
+            <li><a href="technology.html">Technology Stack</a></li>
+            <li><a href="contact.html">Contact &amp; Hire</a></li>
+            <li><a href="https://packagist.org/packages/imrandevbd/" target="_blank" rel="noreferrer">Packagist Packages ↗</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Verified Profiles</h4>
+          <ul>
+            <li><a href="https://imrandev.bd" target="_blank" rel="noreferrer">imrandev.bd ↗</a></li>
+            <li><a href="https://github.com/imranbru99" target="_blank" rel="noreferrer">GitHub (@imranbru99) ↗</a></li>
+            <li><a href="https://linkedin.com/in/imranbru99" target="_blank" rel="noreferrer">LinkedIn ↗</a></li>
+            <li><a href="https://blogcutter.com" target="_blank" rel="noreferrer">Blog Cutter AI ↗</a></li>
+          </ul>
         </div>
       </div>
-    </section>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Imran Ahmed. All rights reserved. Evidence &amp; Proof Linked.</div>
+        <div style="display: flex; gap: 18px;">
+          <a href="mailto:me@imrandev.bd" style="color: var(--text-dim); text-decoration: none;">me@imrandev.bd</a>
+          <span>·</span>
+          <a href="http://wa.me/+8801576918420" style="color: var(--text-dim); text-decoration: none;">+880 1576 918420</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <section style="padding:72px 0;border-bottom:1px solid #1e3a5f;">
-      <h2 style="font-size:clamp(26px,3vw,36px);color:#fff;margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-weight:700;">AI &amp; Machine Learning Services</h2>
-      <p style="color:#64748b;margin:0 0 36px 0;font-family:Arial,Helvetica,sans-serif;">Production AI integration — not demos. 5,000+ daily AI operations experience.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;">
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;border-left:3px solid #2563eb;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Model Integration</div>
-          <h3 style="color:#fff;margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">OpenAI Integration</h3>
-          <p style="color:#94a3b8;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;">Production GPT integrations with queue-backed jobs, structured outputs, retries, and cost controls.</p>
-          <div style="color:#64748b;font-size:12px;font-family:Arial,Helvetica,sans-serif;">GPT-4 · Function Calling · JSON Schema · Rate Limits</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Model Integration</div>
-          <h3 style="color:#fff;margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">Gemini API Integration</h3>
-          <p style="color:#94a3b8;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;">Multimodal text + vision flows with cost-safe async pipelines and structured output contracts.</p>
-          <div style="color:#64748b;font-size:12px;font-family:Arial,Helvetica,sans-serif;">Gemini Pro · Multimodal · Usage Metering · Caching</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Conversational AI</div>
-          <h3 style="color:#fff;margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">Chatbot Development</h3>
-          <p style="color:#94a3b8;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;">RAG-grounded virtual agents with knowledge base retrieval, conversation memory, and escalation paths.</p>
-          <div style="color:#64748b;font-size:12px;font-family:Arial,Helvetica,sans-serif;">RAG · Vector DB · Claude · Custom Agents</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Knowledge Systems</div>
-          <h3 style="color:#fff;margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">RAG Knowledge Base</h3>
-          <p style="color:#94a3b8;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;">Retrieval-Augmented Generation architectures that ground AI responses in your actual business data.</p>
-          <div style="color:#64748b;font-size:12px;font-family:Arial,Helvetica,sans-serif;">Embeddings · Chunking · Pinecone · pgvector</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Automation</div>
-          <h3 style="color:#fff;margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">Multi-Agent Workflows</h3>
-          <p style="color:#94a3b8;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;">Orchestrated AI agent pipelines for content generation, data processing, and business automation.</p>
-          <div style="color:#64748b;font-size:12px;font-family:Arial,Helvetica,sans-serif;">Agent Chains · Tool Use · Queue Pipelines</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">Vision</div>
-          <h3 style="color:#fff;margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:18px;">Computer Vision QC</h3>
-          <p style="color:#94a3b8;margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;">AI-powered quality control for manufacturing — defect detection, classification, and alert systems.</p>
-          <div style="color:#64748b;font-size:12px;font-family:Arial,Helvetica,sans-serif;">CV Models · Real-time Processing · Alerting</div>
-        </div>
-      </div>
-    </section>
-
-    <section style="padding:72px 0;border-bottom:1px solid #1e3a5f;">
-      <h2 style="font-size:clamp(26px,3vw,36px);color:#fff;margin:0 0 36px 0;font-family:Arial,Helvetica,sans-serif;font-weight:700;">Full AI Service Directory</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;">
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Gemini API Integration</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Multimodal production flows.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">OpenAI Integration</div><div style="color:#64748b;font-size:13px;margin-top:4px;">GPT-4 production pipelines.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">AI Avatar &amp; Video Chat</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Interactive AI personas.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">AI Content Generation</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Automated content pipelines.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Chatbot Development</div><div style="color:#64748b;font-size:13px;margin-top:4px;">RAG-grounded agents.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">RAG Knowledge Base</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Grounded AI responses.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Multi-Agent Automation</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Orchestrated AI workflows.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Computer Vision QC</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Manufacturing defect detection.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">AI Voice Synthesis</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Text-to-speech localization.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Data Processing Agents</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Autonomous data pipelines.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Predictive Maintenance</div><div style="color:#64748b;font-size:13px;margin-top:4px;">IoT + ML alert systems.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">LLM Fine-tuning</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Custom model training.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Market Intelligence AI</div><div style="color:#64748b;font-size:13px;margin-top:4px;">AI-driven market analysis.</div></div>
-        <div style="padding:20px;background:#0a1628;border:1px solid #1e293b;font-family:Arial,Helvetica,sans-serif;"><div style="color:#fff;font-weight:700;font-size:15px;">Generative Media</div><div style="color:#64748b;font-size:13px;margin-top:4px;">Automated image &amp; video.</div></div>
-      </div>
-    </section>
-
-    <section style="padding:72px 0;border-bottom:1px solid #1e3a5f;">
-      <h2 style="font-size:clamp(26px,3vw,36px);color:#fff;margin:0 0 36px 0;font-family:Arial,Helvetica,sans-serif;font-weight:700;text-align:center;">Why This Stack</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;text-align:center;">
-          <div style="font-size:32px;font-weight:800;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">90+</div>
-          <div style="color:#e2e8f0;font-weight:700;font-family:Arial,Helvetica,sans-serif;margin-bottom:6px;">Core Web Vitals</div>
-          <div style="color:#64748b;font-size:13px;font-family:Arial,Helvetica,sans-serif;">Next.js SSR delivers sub-second loads and SEO dominance.</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;text-align:center;">
-          <div style="font-size:32px;font-weight:800;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">40%</div>
-          <div style="color:#e2e8f0;font-weight:700;font-family:Arial,Helvetica,sans-serif;margin-bottom:6px;">DB Load Reduction</div>
-          <div style="color:#64748b;font-size:13px;font-family:Arial,Helvetica,sans-serif;">Redis caching and query profiling across 1M+ records.</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;text-align:center;">
-          <div style="font-size:32px;font-weight:800;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">5K+</div>
-          <div style="color:#e2e8f0;font-weight:700;font-family:Arial,Helvetica,sans-serif;margin-bottom:6px;">Daily AI Operations</div>
-          <div style="color:#64748b;font-size:13px;font-family:Arial,Helvetica,sans-serif;">Production AI pipelines, not fragile demos.</div>
-        </div>
-        <div style="padding:28px;background:#0a1628;border:1px solid #1e293b;text-align:center;">
-          <div style="font-size:32px;font-weight:800;color:#60a5fa;font-family:Arial,Helvetica,sans-serif;margin-bottom:10px;">OWASP</div>
-          <div style="color:#e2e8f0;font-weight:700;font-family:Arial,Helvetica,sans-serif;margin-bottom:6px;">Security Standards</div>
-          <div style="color:#64748b;font-size:13px;font-family:Arial,Helvetica,sans-serif;">Cloudflare WAF, signed middleware, SQLi/XSS prevention.</div>
-        </div>
-      </div>
-    </section>
-
-    <section style="padding:72px 0;">
-      <div style="padding:48px;background:linear-gradient(135deg,#0c1a2e,#091220);border:1px solid #1d4ed8;text-align:center;">
-        <h2 style="font-size:clamp(28px,4vw,40px);color:#fff;margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-weight:700;">Need AI in production?</h2>
-        <p style="color:#94a3b8;margin:0 0 28px 0;font-family:Arial,Helvetica,sans-serif;max-width:520px;margin-left:auto;margin-right:auto;">I've shipped AI systems handling thousands of daily operations. Let's architect yours.</p>
-        <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;font-family:Arial,Helvetica,sans-serif;">
-          <a href="contact.html" style="text-decoration:none;background:#2563eb;color:#fff;padding:16px 28px;font-weight:700;">Discuss AI Integration</a>
-          <a href="https://imrandev.bd/ai-services" style="text-decoration:none;background:transparent;color:#60a5fa;padding:16px 28px;font-weight:700;border:1px solid #1d4ed8;" target="_blank" rel="noopener noreferrer">Full AI Services on imrandev.bd</a>
-        </div>
-      </div>
-    </section>
-
-    <footer style="padding:40px 0 60px 0;border-top:1px solid #1e3a5f;">
-      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center;font-family:Arial,Helvetica,sans-serif;">
-        <div><div style="font-weight:700;color:#fff;font-size:16px;margin-bottom:4px;">Imran Ahmed</div><div style="color:#64748b;font-size:13px;">Full Stack Developer &amp; Software Architect</div></div>
-        <div style="display:flex;flex-wrap:wrap;gap:20px;font-size:13px;">
-          <a href="about.html" style="color:#64748b;text-decoration:none;">About</a>
-          <a href="services.html" style="color:#64748b;text-decoration:none;">Services</a>
-          <a href="contact.html" style="color:#64748b;text-decoration:none;">Contact</a>
-          <a href="https://imrandev.bd/" style="color:#60a5fa;text-decoration:none;" target="_blank" rel="noopener noreferrer">imrandev.bd</a>
-        </div>
-        <div style="color:#475569;font-size:12px;">© 2026 Imran Ahmed. All rights reserved.</div>
-      </div>
-    </footer>
-  </div>
 </body>
 </html>
