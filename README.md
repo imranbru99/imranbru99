@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070a0f,50:0d6e68,100:084c47&height=220&section=header&text=Imran%20Ahmed&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Senior%20Laravel%20%26%20Full-Stack%20Engineer%20%E2%80%A2%20Production%20AI%20Architect&descAlignY=58&descSize=18&descColor=5eead4" alt="Imran Ahmed Header" />
+<img src="./assets/header.svg" width="100%" alt="Imran Ahmed — Senior Laravel & Full-Stack Architect" />
 
 </div>
 
@@ -50,6 +50,12 @@ I am **Imran Ahmed**, a **Senior Laravel & Full-Stack Engineer and Production AI
 - 🛡️ **Perimeter Defense:** Cloudflare WAF, custom rate-limiting, and OWASP Top 10 mitigation blocking **~95%** of malicious automated traffic
 - ⚡ **Database Tuning:** Composite indexing and Redis caching reducing MySQL CPU load by **~40%** across 1M+ operational records
 - 🌍 **Global Reach:** Based in Bangladesh (UTC+6), offering seamless timezone overlap for US, UK, and European teams
+
+<div align="center">
+
+<img src="./assets/metrics.svg" width="100%" alt="Production Metrics" />
+
+</div>
 
 ---
 
@@ -161,8 +167,8 @@ Trusted open-source contributions published on [Packagist (@imrandevbd)](https:/
 |:---:|---|---|---|
 | 🥇 | **[Rankinsoft Textile DPP & React ERP](https://imrandev.bd)** | Supply Chain Traceability · Laravel · React · AI | Digital Product Passport for EU/US buyer compliance, batch serialization, plant management console |
 | 🥈 | **[Blog Cutter AI Engine](https://blogcutter.com)** | Production AI SaaS · Laravel · Redis · Cloudflare | Autonomous publishing engine executing **5,000+ daily cycles** at **99.9% uptime SLA** |
-| 🥉 | **[School LMS / xam.bd Platform](https://imrandev.bd)** | High-Concurrency EdTech · Laravel · Next.js | Full-text indexed question bank across **1M+ exam items**, automated multi-tenant grading |
-| 4 | **[ClassEnjoy.com](https://classenjoy.com)** | EdTech Platform · Laravel · Redis · MySQL | **1.5M+ MCQs**, real-time classes, sub-millisecond query performance |
+| 🥉 | **[xam.bd Platform](https://xam.bd)** | High-Concurrency EdTech · Laravel · Next.js · Redis | **1.5M+ MCQs & Exam Items**, full-text indexed question bank, sub-millisecond query performance, multi-tenant grading |
+| 4 | **[School LMS Platform](https://imrandev.bd)** | Scalable EdTech · Laravel · Next.js | Comprehensive online learning management, curriculum tracking, automated grading |
 | 5 | **Dealancer.cloud** | Freelance Marketplace · Laravel · Vue.js | Leading freelance and digital service exchange platform in Bangladesh |
 | 6 | **WiseAcademy LMS** | EdTech SaaS · Laravel · React | High-throughput course delivery, video streaming, and certificate generation |
 | 7 | **The Gentlemans Code** | Luxury Commerce · Laravel · Next.js | Sub-second checkout funnels, inventory matrix, headless WooCommerce integration |
@@ -261,20 +267,26 @@ Trusted open-source contributions published on [Packagist (@imrandevbd)](https:/
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 Engineering Activity & Language Mastery
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=imranbru99&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=070a0f&title_color=2dd4bf&icon_color=2dd4bf&text_color=94a3b8&border_radius=8" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=imranbru99&theme=tokyonight&hide_border=true&background=070a0f&ring=2dd4bf&fire=f59e0b&currStreakLabel=2dd4bf&border_radius=8" width="49%" alt="Streak Stats"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imranbru99&layout=compact&theme=tokyonight&hide_border=true&bg_color=070a0f&title_color=2dd4bf&text_color=94a3b8&border_radius=8&langs_count=8" width="58%" alt="Top Languages"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=imranbru99&theme=tokyonight&hide_border=true&background=070a0f&ring=2dd4bf&fire=f59e0b&currStreakLabel=2dd4bf&border_radius=8" width="65%" alt="Streak Stats"/>
 
 </div>
 
+<br/>
+
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=imranbru99&theme=tokyo-night&hide_border=true&area=true&area_color=0d9488&color=2dd4bf&line=0d9488&point=ffffff&bg_color=070a0f)](https://github.com/imranbru99)
+| Core Engineering Competency | Experience | Architecture Depth & Scale | Production Proficiency |
+|---|:---:|---|:---:|
+| **Laravel & PHP Ecosystem** (11/12, Octane, Horizon) | **9+ Years** | Enterprise Architecture, Microservices, Packagist OSS | `██████████ 98%` |
+| **Production AI & LLM Systems** (OpenAI, Claude, Gemini) | **3+ Years** | 5,000+ Daily Cycles, RAG Pipelines, Cost Telemetry | `█████████░ 92%` |
+| **Database Tuning & Indexing** (MySQL, PostgreSQL, Redis) | **9+ Years** | 1M+ Records Tuned, 40% CPU Reduction, EXPLAIN | `█████████░ 94%` |
+| **TypeScript, Next.js 15 & React 19** | **5+ Years** | App Router, Server Actions, 90+ Core Web Vitals | `█████████░ 90%` |
+| **Cloudflare WAF, Security & DevOps** (Docker, CI/CD) | **7+ Years** | 95% Bots Blocked, Zero-Downtime Blue/Green | `█████████░ 92%` |
+| **Go (Golang) Microservices** | **2+ Years** | Concurrency, High-Throughput APIs, Goroutines | `████████░░ 82%` |
 
 </div>
 
@@ -334,6 +346,8 @@ I am open to **Senior Remote Full-Stack Roles**, **AI Platform Architecture Cont
 
 ⭐ **Star this repository if you find it valuable!**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070a0f,50:0d6e68,100:084c47&height=120&section=footer" alt="footer"/>
+<br/><br/>
+
+<img src="./assets/footer.svg" width="100%" alt="Imran Ahmed Footer" />
 
 </div>

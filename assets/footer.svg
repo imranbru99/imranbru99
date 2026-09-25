@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="100%" height="60" fill="none">
+  <defs>
+    <linearGradient id="footer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05080c" />
+      <stop offset="50%" stop-color="#0b1722" />
+      <stop offset="100%" stop-color="#05080c" />
+    </linearGradient>
+    <linearGradient id="footer-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#084c47" />
+      <stop offset="40%" stop-color="#2dd4bf" />
+      <stop offset="70%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#084c47" />
+    </linearGradient>
+    <style>
+      .foot-txt { font-family: 'Courier New', Courier, monospace, 'IBM Plex Mono'; font-size: 11px; fill: #64748b; letter-spacing: 0.12em; text-transform: uppercase; }
+      .foot-tag { fill: #2dd4bf; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="900" height="60" rx="6" fill="url(#footer-grad)" />
+  <rect x="0" y="0" width="900" height="2" fill="url(#footer-line)" />
+
+  <text x="450" y="36" text-anchor="middle" class="foot-txt">
+    Imran Ahmed · Senior Laravel &amp; AI Architect · <tspan class="foot-tag">imrandev.bd</tspan> · Dhaka / Rangpur (UTC+6)
+  </text>
+</svg>
