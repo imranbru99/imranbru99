@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=2DD4BF&center=true&vCenter=true&width=900&lines=Software+Engineer+-+AI%2C+Traceability+%26+Platform+%40+Rankinsoft;Senior+Laravel+%26+Full-Stack+Architect+%7C+9%2B+Years;Architect+of+Blog+Cutter+AI+(5%2C000%2B+Daily+AI+Publishing+Cycles);Packagist+Author%3A+imrandevbd%2Flaravel-ai-hub+%26+unicode-pdf;High-Concurrency+Laravel+11%2F12+%7C+Next.js+15+%7C+Redis+Horizon;Cloudflare+WAF+Perimeter+Defense+%7C+OWASP+Hardened+%7C+99.9%25+SLA;Open+for+Senior+Remote+Roles+%26+Consulting+(US%2FUK%2FEU+Overlap)" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=2DD4BF&center=true&vCenter=true&width=900&lines=Software+Engineer+-+AI%2C+Traceability+%26+Platform+%40+Rankinsoft;Senior+Laravel+%26+Full-Stack+Architect+%7C+9%2B+Years;Architect+of+Blog+Cutter+AI+(5%2C000%2B+Daily+AI+Publishing+Cycles);Packagist+Author%3A+imrandevbd%2Flaravel-ai-hub+%26+unicode-pdf;Laravel+(Any+Version+%2F+Latest+13%2B)+%7C+Next.js+15+%7C+Redis+Horizon;Cloudflare+WAF+Perimeter+Defense+%7C+OWASP+Hardened+%7C+99.9%25+SLA;Open+for+Senior+Remote+Roles+%26+Consulting+(US%2FUK%2FEU+Overlap)" alt="Typing SVG" />
 
 </div>
 
@@ -152,8 +152,8 @@ Trusted open-source contributions published on [Packagist (@imrandevbd)](https:/
 
 | Package | Description | Stack | Link |
 |---|---|---|:---:|
-| 🤖 **`imrandevbd/laravel-ai-hub`** | Multi-provider LLM orchestration for Laravel with automated model fallback (OpenAI, Claude, Gemini), streaming responses, and cost telemetry. | PHP 8.2+ · Laravel 11/12 · AI | [![Packagist](https://img.shields.io/badge/Packagist-laravel--ai--hub-orange?style=flat-square&logo=packagist)](https://packagist.org/packages/imrandevbd/) |
-| 📄 **`imrandevbd/laravel-unicode-pdf`** | Production-ready PDF generation engine with seamless UTF-8 Bengali & Arabic RTL rendering, custom typography, and memory optimization. | PHP · Laravel · PDF Engine | [![Packagist](https://img.shields.io/badge/Packagist-unicode--pdf-orange?style=flat-square&logo=packagist)](https://packagist.org/packages/imrandevbd/) |
+| 🤖 **`imrandevbd/laravel-ai-hub`** | Multi-provider LLM orchestration for Laravel with automated model fallback (OpenAI, Claude, Gemini), streaming responses, and cost telemetry. | PHP 8.2+ · Laravel (Latest 13+ / 12 / 11) · AI | [![Packagist](https://img.shields.io/badge/Packagist-laravel--ai--hub-orange?style=flat-square&logo=packagist)](https://packagist.org/packages/imrandevbd/) |
+| 📄 **`imrandevbd/laravel-unicode-pdf`** | Production-ready PDF generation engine with seamless UTF-8 Bengali & Arabic RTL rendering, custom typography, and memory optimization. | PHP · Laravel (All Versions) · PDF Engine | [![Packagist](https://img.shields.io/badge/Packagist-unicode--pdf-orange?style=flat-square&logo=packagist)](https://packagist.org/packages/imrandevbd/) |
 
 </div>
 
@@ -187,7 +187,7 @@ Trusted open-source contributions published on [Packagist (@imrandevbd)](https:/
 
 ### 🔵 Backend & Microservices
 - **Languages:** PHP 8.3+, Go (Golang), Python, Node.js
-- **Frameworks:** Laravel 11/12, Lumen, Express.js
+- **Frameworks:** Laravel (Any Version / Latest 13+, 12, 11), Lumen, Express.js
 - **Architecture:** Multi-Tenant SaaS, Hexagonal/Clean Architecture, Decoupled APIs
 - **APIs:** RESTful (v1/v2), GraphQL, Webhooks, SSE
 - **Testing:** PHPUnit, Pest, Pest Architecture Tests
@@ -281,7 +281,7 @@ Trusted open-source contributions published on [Packagist (@imrandevbd)](https:/
 
 | Core Engineering Competency | Experience | Architecture Depth & Scale | Production Proficiency |
 |---|:---:|---|:---:|
-| **Laravel & PHP Ecosystem** (11/12, Octane, Horizon) | **9+ Years** | Enterprise Architecture, Microservices, Packagist OSS | `██████████ 98%` |
+| **Laravel & PHP Ecosystem** (Any Version / Latest 13+, 12, 11) | **9+ Years** | Enterprise Architecture, Microservices, Packagist OSS | `██████████ 98%` |
 | **Production AI & LLM Systems** (OpenAI, Claude, Gemini) | **3+ Years** | 5,000+ Daily Cycles, RAG Pipelines, Cost Telemetry | `█████████░ 92%` |
 | **Database Tuning & Indexing** (MySQL, PostgreSQL, Redis) | **9+ Years** | 1M+ Records Tuned, 40% CPU Reduction, EXPLAIN | `█████████░ 94%` |
 | **TypeScript, Next.js 15 & React 19** | **5+ Years** | App Router, Server Actions, 90+ Core Web Vitals | `█████████░ 90%` |
