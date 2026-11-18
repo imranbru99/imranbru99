@@ -77,14 +77,14 @@
       <circle cx="4" cy="4" r="4" fill="#2dd4bf">
         <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
       </circle>
-      <text x="16" y="8" class="title-role">Software Engineer - AI &amp; Platform @ Rankinsoft · Ex-Principal Blog Cutter AI</text>
+      <text x="16" y="8" class="title-role">Senior Developer @ Rankinsoft · Garment &amp; Textile Automation BD</text>
     </g>
 
     <!-- Main Title Name -->
     <text x="0" y="48" class="title-name">Imran Ahmed</text>
 
     <!-- Subtitle Role -->
-    <text x="0" y="74" class="sub-desc">Senior Laravel &amp; Full-Stack Architect · Production AI &amp; Distributed Queues</text>
+    <text x="0" y="74" class="sub-desc">Senior Laravel &amp; Full-Stack Engineer · Principal Developer · Production AI</text>
 
     <!-- Badges Row -->
     <g transform="translate(0, 92)">
@@ -108,10 +108,10 @@
         <rect x="0" y="0" width="128" height="24" rx="12" fill="rgba(245, 158, 11, 0.15)" stroke="rgba(245, 158, 11, 0.45)" stroke-width="1" />
         <text x="64" y="16" text-anchor="middle" class="tag-copper">99.9% UPTIME SLA</text>
       </g>
-      <!-- Badge 5: Packagist -->
+      <!-- Badge 5: Open Source -->
       <g transform="translate(544, 0)">
-        <rect x="0" y="0" width="142" height="24" rx="12" fill="rgba(99, 102, 241, 0.18)" stroke="rgba(99, 102, 241, 0.45)" stroke-width="1" />
-        <text x="71" y="16" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#a5b4fc" letter-spacing="0.06em">PACKAGIST AUTHOR</text>
+        <rect x="0" y="0" width="148" height="24" rx="12" fill="rgba(99, 102, 241, 0.18)" stroke="rgba(99, 102, 241, 0.45)" stroke-width="1" />
+        <text x="74" y="16" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" font-weight="700" fill="#a5b4fc" letter-spacing="0.06em">350+ OPEN SOURCE</text>
       </g>
     </g>
   </g>

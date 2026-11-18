@@ -1,57 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="100%" height="110" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 118" width="100%" height="118" fill="none">
   <defs>
-    <linearGradient id="m-bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#080e14" />
-      <stop offset="50%" stop-color="#0c1622" />
-      <stop offset="100%" stop-color="#081419" />
+    <linearGradient id="m-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c12" />
+      <stop offset="50%" stop-color="#0b1520" />
+      <stop offset="100%" stop-color="#071412" />
+    </linearGradient>
+    <linearGradient id="m-top" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0" />
+      <stop offset="30%" stop-color="#2dd4bf" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
     </linearGradient>
     <style>
-      .num-stat { font-family: Georgia, serif; font-size: 32px; font-weight: 700; fill: #2dd4bf; }
-      .lbl-stat { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; fill: #f8fafc; text-transform: uppercase; letter-spacing: 0.08em; }
-      .sub-stat { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; fill: #64748b; }
+      .num-stat { font-family: Georgia, 'Times New Roman', serif; font-size: 28px; font-weight: 700; fill: #5eead4; }
+      .lbl-stat { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; font-weight: 700; fill: #f1f5f9; text-transform: uppercase; letter-spacing: 0.08em; }
+      .sub-stat { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9px; fill: #64748b; }
     </style>
   </defs>
 
-  <rect width="900" height="110" rx="8" fill="url(#m-bg)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <rect width="900" height="118" rx="10" fill="url(#m-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <rect x="20" y="0" width="860" height="2" fill="url(#m-top)" />
 
-  <!-- Dividers -->
-  <line x1="180" y1="18" x2="180" y2="92" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1" />
-  <line x1="360" y1="18" x2="360" y2="92" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1" />
-  <line x1="540" y1="18" x2="540" y2="92" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1" />
-  <line x1="720" y1="18" x2="720" y2="92" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1" />
+  <line x1="150" y1="22" x2="150" y2="96" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <line x1="300" y1="22" x2="300" y2="96" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <line x1="450" y1="22" x2="450" y2="96" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <line x1="600" y1="22" x2="600" y2="96" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <line x1="750" y1="22" x2="750" y2="96" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
 
-  <!-- Col 1 -->
-  <g transform="translate(90, 24)" text-anchor="middle">
-    <text y="28" class="num-stat">9+ Yrs</text>
-    <text y="50" class="lbl-stat">Experience</text>
-    <text y="68" class="sub-stat">Senior Architecture</text>
+  <g transform="translate(75, 28)" text-anchor="middle">
+    <text y="28" class="num-stat">9+</text>
+    <text y="52" class="lbl-stat">Years</text>
+    <text y="70" class="sub-stat">Senior expert</text>
   </g>
-
-  <!-- Col 2 -->
-  <g transform="translate(270, 24)" text-anchor="middle">
+  <g transform="translate(225, 28)" text-anchor="middle">
     <text y="28" class="num-stat">200+</text>
-    <text y="50" class="lbl-stat">Shipped</text>
-    <text y="68" class="sub-stat">SaaS, ERP &amp; Apps</text>
+    <text y="52" class="lbl-stat">Projects</text>
+    <text y="70" class="sub-stat">SaaS · industry</text>
   </g>
-
-  <!-- Col 3 -->
-  <g transform="translate(450, 24)" text-anchor="middle">
+  <g transform="translate(375, 28)" text-anchor="middle">
+    <text y="28" class="num-stat">350+</text>
+    <text y="52" class="lbl-stat">Open Source</text>
+    <text y="70" class="sub-stat">Contributions</text>
+  </g>
+  <g transform="translate(525, 28)" text-anchor="middle">
     <text y="28" class="num-stat">5k+</text>
-    <text y="50" class="lbl-stat">Daily AI Ops</text>
-    <text y="68" class="sub-stat">Zero manual touch</text>
+    <text y="52" class="lbl-stat">Daily AI Ops</text>
+    <text y="70" class="sub-stat">Blog Cutter AI</text>
   </g>
-
-  <!-- Col 4 -->
-  <g transform="translate(630, 24)" text-anchor="middle">
+  <g transform="translate(675, 28)" text-anchor="middle">
     <text y="28" class="num-stat">99.9%</text>
-    <text y="50" class="lbl-stat">Uptime SLA</text>
-    <text y="68" class="sub-stat">Horizon &amp; Docker</text>
+    <text y="52" class="lbl-stat">Uptime SLA</text>
+    <text y="70" class="sub-stat">Horizon · Docker</text>
   </g>
-
-  <!-- Col 5 -->
-  <g transform="translate(810, 24)" text-anchor="middle">
-    <text y="28" class="num-stat">~40%</text>
-    <text y="50" class="lbl-stat">Query Cut</text>
-    <text y="68" class="sub-stat">MySQL &amp; Redis Tuning</text>
+  <g transform="translate(825, 28)" text-anchor="middle">
+    <text y="28" class="num-stat">BD</text>
+    <text y="52" class="lbl-stat">Textile</text>
+    <text y="70" class="sub-stat">Garment auto</text>
   </g>
 </svg>
